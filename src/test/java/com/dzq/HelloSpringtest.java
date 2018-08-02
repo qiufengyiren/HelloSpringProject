@@ -22,6 +22,7 @@ public class HelloSpringtest
     {
         assertTrue( true );
     }
+    //测试
     @Test
     public void test(){
         //ClassPathXmlApplicationContext读取配置文件
