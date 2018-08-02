@@ -18,6 +18,7 @@ public class HelloSpringtest
      * Rigorous Test :-)
      */
     @Test
+    //测试
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
