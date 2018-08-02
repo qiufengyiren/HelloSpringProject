@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--bean元素声明spring创建你的对象实例，id属性指定对象的唯一标志符。方便程序的使用-->
+    <bean id="helloSpring" class="com.dzq.dao.HelloSpring">
+        <!--指定被赋值的属性名-->
+        <property name="who">
+            <!--赋值的内容-->
+            <value>Spring</value>
+        </property>
+    </bean>
+</beans>
